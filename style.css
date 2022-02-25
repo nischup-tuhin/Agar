@@ -1,0 +1,143 @@
+/* common code start here */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+body{
+    font-family: 'DM Sans', sans-serif;
+    /* font-family: 'Philosopher', sans-serif; */
+}
+.container{
+    width: 1320px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+/* common code ends here */
+
+/* header design starts here */
+header{
+    background-color: rgb(54, 63, 76,.7);
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+}
+.top-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1% 1%;
+}
+.header-info{
+    color: #fff;
+    font-size: 20px;
+    
+}
+.header-info p{
+    display: inline;
+    margin-right: 10px;
+    padding-right: 10px;
+    border-right: 2px solid rgb(255, 255, 255,.4);
+}
+.header-info p:last-child{
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+.hr-design{
+    opacity: .3;
+}
+.fa-angle-down{
+    font-size: 15px;
+}
+
+
+.bottom-header{
+    padding: 28px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar ul li{
+    display: inline;
+    margin-left: 20px;
+    font-size: 20px
+}
+.navbar ul li a{
+    color: #fff;
+    transition: color .4s;
+}
+.navbar ul li a:hover{
+    color:  rgb(28, 185, 200);
+}
+.navbar-icon i{
+    color: #fff;
+    font-size: 18px;
+    padding-right: 30px;
+    cursor: pointer;
+    transition: color .4s;
+}
+.icon{
+    margin-right: 6rem;
+}
+.navbar-icon i:last-child{
+    padding: 0;
+}
+.navbar-icon .first-icon{
+    font-size: 28px;
+}
+.navbar-icon .last-icon{
+    font-size: 28px;
+}
+.navbar-icon i:hover{
+    color:  rgb(27, 33, 47);
+}
+/* header design ends here */
+/* banner sectione starts */
+#banner{
+    width: 100%;
+    padding: 130px 0;
+    background-image: url(images/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.banner-text{
+    padding-top: 320px;
+}
+.banner-heading h1{
+    margin-left: 10px;
+    width: 600px;
+    font-size: 48px;
+    font-weight: 700;
+    color: #fff;
+    font-family: 'Philosopher', sans-serif;
+}
+.banner-desc p{
+    margin-top: 15px;
+    margin-left: 10px;
+    font-size: 18px;
+    color: #fff;
+    width: 650px;
+    line-height: 28.5px;
+    
+}
+.banner-button button{
+    margin: 30px 10px;
+    border: none;
+    padding: 15px 30px;
+    background-color: #3c949e;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 18px;
+    transition: all .4s;
+    cursor: pointer;
+}
+.banner-button button:hover{
+    color: #3c949e;
+    background-color:  #fff;
+}
+/* banner ends here */
